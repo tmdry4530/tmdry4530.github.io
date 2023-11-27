@@ -7,6 +7,7 @@ import { useRouter } from "next/router"
 const Giscus: React.FC = () => {
   const [scheme] = useScheme()
   const router = useRouter()
+  const theme = scheme === "light" ? "light" : "dark"
 
   useEffect(() => {
     const script = document.createElement("script")
@@ -28,6 +29,7 @@ const Giscus: React.FC = () => {
     script.setAttribute("data-loading", "lazy")
     script.setAttribute("crossorigin", "anonymous")
     script.setAttribute("async", `true`)
+    script.setAttribute("data-theme", theme)
 
     const config: { [key: string]: string } = CONFIG.giscus.config
     Object.keys(config).forEach((key) => {
