@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Chamdom",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "FE jr Developer",
+    bio: "jr FE Developer",
     email: "wjdtmdry88@gmail.com",
     linkedin: "",
     github: "tmdry4530",
