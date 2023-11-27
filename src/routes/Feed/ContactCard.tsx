@@ -5,6 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiFillTwitter,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
@@ -54,16 +55,16 @@ const ContactCard: React.FC = () => {
             <div className="name">linkedin</div>
           </a>
         )}
-        {/* {CONFIG.profile.twitter && (
+        {CONFIG.profile.twitter && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.twitter}`}
+            href={`https://x.com/${CONFIG.profile.twitter}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillLinkedin className="icon" />
+            <AiFillTwitter className="icon" />
             <div className="name">twitter</div>
           </a>
-        )} */}
+        )}
       </StyledWrapper>
     </>
   )
