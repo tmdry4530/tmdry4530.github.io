@@ -55,6 +55,10 @@ const CONFIG = {
       label: "💬 Utterances",
     },
   },
+  giscus: {
+    enable: true,
+    config: {},
+  },
   cusdis: {
     enable: false,
     config: {
