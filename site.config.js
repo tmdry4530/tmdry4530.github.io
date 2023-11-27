@@ -4,29 +4,29 @@ const CONFIG = {
     name: "Chamdom",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I develop everything using node.",
+    bio: "FE jr Developer",
     email: "wjdtmdry88@gmail.com",
-    linkedin: "morethanmin",
+    linkedin: "",
     github: "tmdry4530",
     instagram: "",
     // twitter: "chamdom41",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `yourProject`,
+      href: "https://github.com/tmdry4530",
     },
   ],
   // blog setting (required)
   blog: {
     title: "chamdom.xyz",
-    description: "welcome to morethan-log!",
+    description: "welcome to chamdom's log",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://chamdom.xyz",
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
