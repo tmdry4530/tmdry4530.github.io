@@ -15,9 +15,9 @@ const Giscus: React.FC = () => {
 
     script.setAttribute("src", "https://giscus.app/client.js")
     script.setAttribute("data-repo", "tmdry4530/comments")
-    script.setAttribute("data-repo-id", "R_kgDOKx06ig")
+    script.setAttribute("data-repo-id", "R_kgDOKye4_g")
     script.setAttribute("data-category", "General")
-    script.setAttribute("data-category-id", "DIC_kwDOKx06is4CbPGf")
+    script.setAttribute("data-category-id", "DIC_kwDOKye4_s4CbSPU")
     script.setAttribute("data-mapping", "pathname")
     script.setAttribute("data-strict", "1")
     script.setAttribute("data-reactions-enabled", "1")
