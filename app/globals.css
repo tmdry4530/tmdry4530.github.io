@@ -1,0 +1,21 @@
+@import "tailwindcss";
+/* 플러그인 */
+@plugin '@tailwindcss/typography';
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-gray-200 p-4 shadow-sm bg-white;
+  }
+  .meta-chip {
+    @apply text-xs px-2 py-0.5 rounded border border-gray-200;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
